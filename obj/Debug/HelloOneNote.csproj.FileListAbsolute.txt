@@ -1,0 +1,4 @@
+C:\Users\Administrator\source\repos\HelloOneNote\obj\Debug\HelloOneNote.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\HelloOneNote\obj\Debug\HelloOneNote.Properties.Resources.resources
+C:\Users\Administrator\source\repos\HelloOneNote\obj\Debug\HelloOneNote.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\HelloOneNote\obj\Debug\HelloOneNote.csproj.CoreCompileInputs.cache

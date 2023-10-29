@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\HelloOneNote\bin\x64\Debug\HelloOneNote.dll
+C:\Users\Administrator\source\repos\HelloOneNote\bin\x64\Debug\HelloOneNote.pdb
+C:\Users\Administrator\source\repos\HelloOneNote\bin\x64\Debug\HelloOneNote.tlb
+C:\Users\Administrator\source\repos\HelloOneNote\bin\x64\Debug\Microsoft.Office.Interop.OneNote.dll
+C:\Users\Administrator\source\repos\HelloOneNote\obj\x64\Debug\HelloOneNote.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\HelloOneNote\obj\x64\Debug\HelloOneNote.Properties.Resources.resources
+C:\Users\Administrator\source\repos\HelloOneNote\obj\x64\Debug\HelloOneNote.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\HelloOneNote\obj\x64\Debug\HelloOneNote.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\HelloOneNote\obj\x64\Debug\HelloOneNote.csproj.CopyComplete
+C:\Users\Administrator\source\repos\HelloOneNote\obj\x64\Debug\HelloOneNote.dll
+C:\Users\Administrator\source\repos\HelloOneNote\obj\x64\Debug\HelloOneNote.pdb
