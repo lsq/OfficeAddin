@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\PowerPoint\Addins\updateLinks.Connect]
+"FriendlyName"="updateLinks"
+"Description"="updateLinks"
+"LoadBehavior"=dword:00000003
+"CommandLineSafe"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Excel\Addins\updateLinks.Connect]
+"FriendlyName"="updateLinks"
+"Description"="updateLinks"
+"LoadBehavior"=dword:00000003
+"CommandLineSafe"=dword:00000001
+[HKEY_CURRENT_USER\Software\Kingsoft\Office\ET\AddinsWL]
+"updateLinks.Connect"=""
