@@ -46,7 +46,9 @@
 \RequirePackage{xfrac}                              % small fractions
 \RequirePackage[textsize=scriptsize]{todonotes}     % todo notes
 \RequirePackage{tabularx}
+\RequirePackage{tabularray}
 \RequirePackage[scheme=plain]{ctex}		%中文字体
+\RequirePackage{sim-os-menus}
 
 \ifamznotes@math
     \RequirePackage{mathtools}          % for math macros; also loads amsmath
@@ -264,6 +266,8 @@
 }
 
 \newcommand{\amzindexbody}{}
+
+\newcommand{\mintvb}[1]{\mintinline[]{vb.net}|#1|}
 
 \newcommand{\addindexentry}[2]{%
     \appto\amzindexbody{

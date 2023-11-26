@@ -175,9 +175,11 @@
 	统) 或者 \mintinline{bat}|windows\syswow64| (64位系统)文件夹里面，\\	
 	然后开始菜单栏，附件里面 找到 CMD命令，右键以管理员身份打开，切换到\\ \mintinline[breaklines]{bat}|C:\Windows\Microsoft.NET\Framework\v4.0.30319| \\
 	运行命令，
-	\begin{amzcode}{powershell}
-		regasm.exe /codebase c:\windows\syswow64\MyComAddin.dll /tlb:c:\windows\syswow64\MyComAddin.tlb 
-	\end{amzcode}
+%	\begin{amzcode}{powershell}
+	\begin{TermWin}[Width=13cm,Title={},Align=flush left]{}
+regasm.exe /codebase c:\windows\syswow64\MyComAddin.dll /tlb c:\windows\syswow64\MyComAddin.tlb 
+	\end{TermWin}
+%	\end{amzcode}
 	(具体路径自己写准确) ，注册32位OFFICE用。\\
 	再次切换到 \mintinline[breaklines]{bat}|C:\Windows\Microsoft.NET\Framework64\v4.0.30319| 运行上述命令，注册64位OFFICE用。
 	\begin{notebox}
@@ -186,7 +188,7 @@
 		
 		.NET通过能够存储由[AssemblyVersion]选择的DLL的多个版本来改进.Windows并行缓存的完全等价物,即托管程序集的GAC.因此,未重建的旧应用程序将继续不受影响地运行,仍然可以使用旧的DLL.这是一个好方法.
 		
-		在忙于开发服务器时,建议使用/ codebase.您可以跳过在GAC中注册DLL的额外必需步骤.忘记这样做很痛苦,你的更改似乎不起作用\cite{comAddin_LoadFailure,VSTO_comAddin_LoadFailure},因为测试应用程序将加载旧版本.当你使用/ codebase时,Regasm会显示一个警告,警告你关于DLL Hell的潜力,你可以忽略它.
+		在忙于开发服务器时,建议使用/codebase.您可以跳过在GAC中注册DLL的额外必需步骤.忘记这样做很痛苦,你的更改似乎不起作用\cite{comAddin_LoadFailure,VSTO_comAddin_LoadFailure},因为测试应用程序将加载旧版本.当你使用/ codebase时,Regasm会显示一个警告,警告你关于DLL Hell的潜力,你可以忽略它.
 		
 		当您让Visual Studio通过"项目">"属性">"构建"选项卡"注册COM互操作"复选框进行注册时,您将获得Regasm/codebase/tlb的完全等效项.这样做更为可取,因为它还确保了旧版本的程序集未注册,从而避免了注册表污染.但VS必须运行升级才能写入注册表.
 		
